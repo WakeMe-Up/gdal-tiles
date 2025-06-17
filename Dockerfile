@@ -1,4 +1,4 @@
-FROM osgeo/gdal:alpine-small-latest
+FROM osgeo/gdal:alpine-small-3.6.3
 
 # 安装 Python 和 pip
 RUN apk add --no-cache python3 py3-pip
