@@ -47,4 +47,4 @@ def handler(event, context):
             oss_key = f"tiles/{file_name.replace('.tif', '')}/{oss_key}"  # 可自定义路径
             bucket.put_object_from_file(oss_key, local_file)
 
-    print("切片上传完成")
+    print("切片上传完成！")
